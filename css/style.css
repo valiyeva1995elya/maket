@@ -1,0 +1,30 @@
+body{
+    background-color: #2F2342;
+    font-family: 'Poppins', sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 299px;
+    height: 1121px;
+    background-color: #28272B;
+    padding: 50px 42px;
+    box-sizing: border-box;
+}
+.ava{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ava{
+    width: 96px;
+    height: 96px;
+}
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+}
