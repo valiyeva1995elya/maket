@@ -11,8 +11,8 @@ body{
     
 }
 .menu{
-    width:20%;
-    height: 1200px;
+    width:15%;
+    height: 1100px;
     background-color: #28272B;
     padding: 50px 42px;
     box-sizing: border-box;
@@ -28,6 +28,7 @@ body{
 #ava{
     width: 96px;
     height: 96px;
+    border-radius: 50px;
 }
 .title-text{
     font-size: 24px;
@@ -40,6 +41,7 @@ body{
     font-weight: 500;
     line-height: 27px;
     color: #fff;
+    text-align: start;
 }
 .choice{
     display: flex;
@@ -62,14 +64,14 @@ body{
     height: 24px;
 }
 .org{
-    color: #FFA049;
+    color: rgb(255, 157, 255);
 }
 
 .list-menu{
-    margin-bottom: 45px;
+    margin-bottom: 10px;
 }
 .choice:hover .icon{
-    background-color: #FFA049;
+    background-color: rgb(255, 157, 255);
     
 }
 .choice:hover .info-text{
@@ -80,7 +82,7 @@ body{
     width: 216px;
     height: 327px;
     border-radius: 15px;
-    background-color: #533A79;
+    background-color: rgb(50, 23, 90);
     padding: 30px 20px;
     box-sizing: border-box;
     display: flex;
@@ -103,7 +105,7 @@ body{
 button{
     width: 226px;
     height: 50px;
-    background-color:#FFA049;
+    background-color:rgb(255, 157, 255);
     padding: 10px 18px;
     border-radius: 25px;
     border: 1px solid transparent;
@@ -119,9 +121,9 @@ button{
     margin-top: 40px;
 }
 .card{
-    width: 55%;
+    width: 45%;
     height: 1500px;
-    padding: 5px;
+    padding: 25px 30px;
 }
 .input{
     width: 370px;
@@ -151,12 +153,13 @@ input{
     justify-content: flex-start;
     width: 21px;
     height: 24px;
-    margin: 30px 21px;
+    margin: 30px 0;
     align-items: center;
 }
 .nav{
     display: flex;
     flex-direction: column;
+    margin-top: 68px;
 }
 .nav-list{
     display: flex;
@@ -202,6 +205,12 @@ input{
     background-color: #28272B;
     
 }
+.pic{
+    width: 392px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+
+}
 .star{
     position: relative;
     margin-left: 102px;
@@ -238,12 +247,51 @@ input{
     padding: 0 25px 25px 25px;
 }
 
-.mr-26{
-    margin-right: 26px;
-}
+
 .info{
-    width: 25%;
+    width: 30%;
 }
 
+.card-info-big{
+    width: 548px;
+    height: 1050px;
+    border-radius: 15px;
+    background-color: #28272B;
 
-
+}
+.not-text-align{
+    text-align: left;
+    margin-bottom: 44px;
+}
+.account{
+    margin-left: 90px;
+}
+.icon-ava{
+    position: relative;
+}
+.icon-ava::before{
+    content: url(../img/Avatar.png);
+    position: absolute;
+    left: -90px;
+    top: -2px;
+}
+.mr-0{
+    margin: 0;
+}
+.mrt-5{
+    margin-top: 5px;
+}
+.icon-ava1{
+    position: relative;
+}
+.icon-ava1::before{
+    content: url(../img/Avatar-1.png);
+    position: absolute;
+    left: -90px;
+    top: -2px;
+}
+.pic-big{
+    width: 548px;
+    height: 386px;
+    border-radius: 15px 15px 0 0;
+}
