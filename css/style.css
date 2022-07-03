@@ -12,7 +12,11 @@ body{
     
 }
 .menu{
+<<<<<<< HEAD
     max-width: 15%;
+=======
+    width:15%;
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
     height: 1100px;
     background-color: #28272B;
     padding: 50px 42px;
@@ -67,6 +71,7 @@ body{
 }
 .org{
     color: rgb(255, 157, 255);
+<<<<<<< HEAD
 }
 .list-menu{
     display: flex;
@@ -75,6 +80,11 @@ body{
 }
 
 .list-menu-side{
+=======
+}
+
+.list-menu{
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
     margin-bottom: 10px;
 }
 .choice:hover .icon{
@@ -89,7 +99,11 @@ body{
     width: 210px;
     height: 327px;
     border-radius: 15px;
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.15);
+=======
+    background-color: rgb(50, 23, 90);
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
     padding: 30px 20px;
     box-sizing: border-box;
     display: flex;
@@ -112,7 +126,11 @@ body{
 button{
     width: 226px;
     height: 50px;
+<<<<<<< HEAD
     background-color:rgb(232, 157, 255);
+=======
+    background-color:rgb(255, 157, 255);
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
     padding: 10px 18px;
     border-radius: 25px;
     border: 1px solid transparent;
@@ -128,10 +146,16 @@ button{
     margin-top: 40px;
 }
 .card{
+<<<<<<< HEAD
     max-width: 55%;
     height: 1500px;
     padding: 25px 0;
     
+=======
+    width: 45%;
+    height: 1500px;
+    padding: 25px 30px;
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
 }
 .input{
     width: 370px;
@@ -168,8 +192,11 @@ input{
     display: flex;
     flex-direction: column;
     margin-top: 68px;
+<<<<<<< HEAD
     
     width: 100%;
+=======
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
 }
 .nav-list{
     display: flex;
@@ -230,6 +257,12 @@ input{
     border-radius: 15px 15px 0 0;
 
 }
+.pic{
+    width: 392px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+
+}
 .star{
     position: relative;
     margin-left: 102px;
@@ -272,6 +305,7 @@ input{
 
 
 .info{
+<<<<<<< HEAD
     max-width: 30%;
     
 }
@@ -282,6 +316,16 @@ input{
     border-radius: 15px;
     background-color: #28272B;
     
+=======
+    width: 30%;
+}
+
+.card-info-big{
+    width: 548px;
+    height: 1050px;
+    border-radius: 15px;
+    background-color: #28272B;
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
 
 }
 .not-text-align{
@@ -289,16 +333,31 @@ input{
     margin-bottom: 44px;
 }
 .account{
+<<<<<<< HEAD
     display: flex;
     
 }
 
+=======
+    margin-left: 90px;
+}
+.icon-ava{
+    position: relative;
+}
+.icon-ava::before{
+    content: url(../img/Avatar.png);
+    position: absolute;
+    left: -90px;
+    top: -2px;
+}
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
 .mr-0{
     margin: 0;
 }
 .mrt-5{
     margin-top: 5px;
 }
+<<<<<<< HEAD
 .mr-15{
     margin-right: 15px;
 }
@@ -317,4 +376,19 @@ input{
     height: 60px;
     border-radius: 60px;
     margin-right: 30px;
+=======
+.icon-ava1{
+    position: relative;
+}
+.icon-ava1::before{
+    content: url(../img/Avatar-1.png);
+    position: absolute;
+    left: -90px;
+    top: -2px;
+}
+.pic-big{
+    width: 548px;
+    height: 386px;
+    border-radius: 15px 15px 0 0;
+>>>>>>> 79861ebee13d981e7222acd6b2517106b249be43
 }
